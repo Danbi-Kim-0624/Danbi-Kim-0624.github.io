@@ -5,6 +5,18 @@ permalink: /
 author_profile: true
 ---
 
+<div style="display: flex; gap: 30px; align-items: center; margin-top: 30px;">
+  <img src="/assets/images/profile.jpg" alt="Danbi Kim" style="width: 200px; border-radius: 8px;" />
+  <div>
+    <h2><strong>Danbi Kim</strong> <span style="font-size: 0.8em;">/ˈdɑː.n.bi kɪm/</span></h2>
+    <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
+    <p>
+      I work in the <a href="#">Laboratory for Solid Mechanics & Materials in Extreme</a>  
+      at KAIST (Korea Advanced Institute of Science and Technology).
+    </p>
+  </div>
+</div>
+
 ## 🎓 EDUCATION
 
 - M.S., [Mechanical Engineering](#), KAIST, South Korea (in preparation)  
