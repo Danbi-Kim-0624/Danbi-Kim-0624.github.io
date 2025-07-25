@@ -41,6 +41,10 @@ author_profile: true
   - Content Development Team member (2022-present)
   - Q-KSOP  수상 with 정예나, 김현진
 
+
+---
+You can reach me anytime via email:
+danbi@kaist.ac.kr / danbi.kim.0624@gmail.com
 <!--
 ---
 ## HONORS AND ACHIEVEMENTS
