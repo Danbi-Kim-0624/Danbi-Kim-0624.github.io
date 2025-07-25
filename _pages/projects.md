@@ -7,11 +7,3 @@ author_profile: true
 ---
 
 My Project
-<!--
-## Ongoing Projects
-
-- 🚀 **3D viscoelastic simulation in FEniCSx**
-- 🧠 **AI-assisted material modeling**
-- 📖 **Blog series on solid mechanics**
-
--->
