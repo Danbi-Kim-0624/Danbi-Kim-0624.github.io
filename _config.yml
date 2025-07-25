@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Danbi Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Everyting you can imagine is real. - Pablo Picasso-"
+  avatar           : "/assets/images/summer_profile1.jpg"
+  bio              : 
   location         : "Daejeon, South Korea"
   email            :
   links:

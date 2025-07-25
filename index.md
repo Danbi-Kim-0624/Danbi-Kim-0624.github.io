@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div style="display: flex; gap: 30px; align-items: center; margin-top: 30px;">
-  <img src="/assets/images/alice p-sa.jpg" alt="Danbi Kim" style="width: 200px; border-radius: 8px;" />
+  <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" style="width: 35%; border-radius: 8px;" />
   <div>
     <h2><strong>Danbi Kim</strong> <span style="font-size: 0.8em;">/ˈdɑː.n.bi kɪm/</span></h2>
     <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
@@ -23,6 +23,15 @@ author_profile: true
 - M.S., [Mechanical Engineering](https://me.kaist.ac.kr/eng/main/main.html), KAIST, South Korea (in preparation)  
 - B.S., [Aerospace Engineering](https://ae.kaist.ac.kr/) and [Mathematics](https://mathsci.kaist.ac.kr/home/en/), KAIST, South Korea, 2020–2025
 
+## HONORS AND ACHIEVEMENTS
+
+ 
+- The 4th KAIST Reading King: Individual Category Champion Award (2024)  
+  제 4회 카이스트 독서왕 대상
+- KAIST Aerospace Engineering Hong Chang Sun Scholarship (2023)  
+  카이스트 항공우주공학과 홍창선 장학금 
+- The 2nd KAIST Reading King: Individual Category Encouragement Award (2022)  
+  제 2회 카이스트 독서왕 개인부문 장려상
 
 ## Extracurricular Activity at KAIST
 
@@ -45,14 +54,3 @@ author_profile: true
 ---
 You can reach me anytime via email:
 danbi@kaist.ac.kr / danbi.kim.0624@gmail.com
-<!--
----
-## HONORS AND ACHIEVEMENTS
-
-- KAIST Aerospace Engineering Hong Chang Sun Scholarship (2023)  
-  카이스트 항공우주공학과 홍창선 장학금  
-- The 4th KAIST Reading King: Individual Category  
-  제 4회 카이스트 독서왕 대상 → 원문 추가  
-- The 2nd KAIST Reading King: Individual Category Encouragement Award  
-  제 2회 카이스트 독서왕 개인부문 장려상 → 원문 추가
--->
