@@ -1,12 +1,16 @@
 ---
 layout: single
 title: "Welcome!"
+header:
+  overlay_image: /assets/images/IMG_7562 - Copy.jpg
+  overlay_filter: 0.3
+  caption: "DANBI KIM"
 permalink: /
 author_profile: true
 ---
 
 <div style="display: flex; gap: 30px; align-items: center; margin-top: 30px;">
-  <img src="/assets/images/profile.jpg" alt="Danbi Kim" style="width: 200px; border-radius: 8px;" />
+  <img src="/assets/images/alice p-sa.jpg" alt="Danbi Kim" style="width: 200px; border-radius: 8px;" />
   <div>
     <h2><strong>Danbi Kim</strong> <span style="font-size: 0.8em;">/ˈdɑː.n.bi kɪm/</span></h2>
     <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
@@ -17,14 +21,14 @@ author_profile: true
   </div>
 </div>
 
-## 🎓 EDUCATION
+## EDUCATION
 
 - M.S., [Mechanical Engineering](#), KAIST, South Korea (in preparation)  
 - B.S., [Aerospace Engineering](#) and [Mathematics](#), KAIST, South Korea, 2020–2025
 
 ---
 
-## 🏆 HONORS AND ACHIEVEMENTS
+## HONORS AND ACHIEVEMENTS
 
 - KAIST Aerospace Engineering Hong Chang Sun Scholarship (2023)  
   카이스트 항공우주공학과 홍창선 장학금  
@@ -35,7 +39,7 @@ author_profile: true
 
 ---
 
-## 🏊 Extracurricular Activity at KAIST
+## Extracurricular Activity at KAIST
 
 - **KAIST Swimming Team KAORI**, *which means stingray in Korean* (2024)  
   - The 29th KAIST Swim Meet: Freestyle 100m (F) Bronze (2024)  
@@ -45,6 +49,6 @@ author_profile: true
 
 ---
 
-## 👩‍🏫 Teaching Experiment
+## Teaching Experiment
 
 - KAIST Science Outreach Program ([KSOP](#))
