@@ -2,7 +2,7 @@
 layout: single
 title: 
 permalink: /
-author_profile: true
+show_author_profile: false
 ---
 
 <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">

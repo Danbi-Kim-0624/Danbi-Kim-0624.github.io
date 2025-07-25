@@ -1,0 +1,9 @@
+a {
+  color: #001f3f; /* 짙은 네이비색 */
+  text-decoration: underline;
+
+  &:hover {
+    color: #001933; /* hover 시 더 어두운 네이비 (원하면 조정 가능) */
+    text-decoration: underline;
+  }
+}
