@@ -1,10 +1,6 @@
 ---
 layout: single
 title: "Welcome!"
-header:
-  overlay_image: /assets/images/IMG_7562 - Copy.jpg
-  overlay_filter: 0.3
-  caption: "DANBI KIM"
 permalink: /
 author_profile: true
 ---
