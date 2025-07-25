@@ -1,12 +1,15 @@
 ---
 layout: single
+sidebar:
+  nav: false
+  disable: true
 title: 
 permalink: /
 show_author_profile: false
 ---
 
-<div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
-  <h1 style="font-size: 3rem; font-weight: 700; font-family: 'Bitter', serif;">
+<div style="text-align: center; margin-top: 120px; margin-bottom: 120px;">
+  <h1 style="font-size: 3rem; font-weight: 700; font-family: 'Bitter', serif; color: #000;">
     Danbi Kim <span style="font-weight: 400;">/ˈdaːn.bi kim/</span>
   </h1>
 </div>
