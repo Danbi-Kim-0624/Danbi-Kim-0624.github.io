@@ -6,6 +6,7 @@ classes: wide
 author_profile: true
 ---
 
+My Project
 <!--
 ## Ongoing Projects
 
@@ -13,4 +14,4 @@ author_profile: true
 - 🧠 **AI-assisted material modeling**
 - 📖 **Blog series on solid mechanics**
 
---!>
+-->

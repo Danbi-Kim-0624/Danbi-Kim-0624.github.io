@@ -16,7 +16,7 @@ author_profile: true
     </p>
   </div>
 </div>
-
+<!--
 ## EDUCATION
 
 - M.S., [Mechanical Engineering](#), KAIST, South Korea (in preparation)  
@@ -48,3 +48,4 @@ author_profile: true
 ## Teaching Experiment
 
 - KAIST Science Outreach Program ([KSOP](#))
+-->
