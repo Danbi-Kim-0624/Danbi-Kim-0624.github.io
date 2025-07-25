@@ -5,10 +5,15 @@ permalink: /
 author_profile: true
 ---
 
+<div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
+  <h1 style="font-size: 3rem; font-weight: 700; font-family: 'Bitter', serif;">
+    Danbi Kim <span style="font-weight: 400;">/ˈdaːn.bi kim/</span>
+  </h1>
+</div>
+
 <div style="display: flex; gap: 30px; align-items: center; margin-top: 30px;">
   <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" style="width: 35%; border-radius: 8px;" />
   <div>
-    <h2><strong>Danbi Kim</strong> <span style="font-size: 0.8em;">/ˈdɑː.n.bi kɪm/</span></h2>
     <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
     <p>
       I am currently pursuing a master's degree in Mechanical Engineering at <a href = "https://continuum.kaist.ac.kr/">the Laboratory for Solid Mechanics & Materials in Extreme</a> Environments at <a href = "https://www.kaist.ac.kr/en/">KAIST</a> (Korea Advanced Institute of Science and Technology). With a strong foundation in mathematics—thanks to a double major in Mathematics and Aerospace Engineering—I enjoy tackling complex problems across disciplines. I am eager to contribute to multidisciplinary environments, where I can bridge diverse fields to develop creative and robust solutions.
