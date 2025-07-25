@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Danbi Kim's Website"
+title                    : "DANBI KIM"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Danbi Kim"
@@ -115,12 +115,15 @@ analytics:
 author:
   name             : "Danbi Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "danbi.kim.0624 [at] gmail.com"
+  bio              : "Everyting you can imagine is real. - Pablo Picasso-"
   location         : "Daejeon, South Korea"
   email            :
   links:
-    # - label: "danbi [at]"
-    #   icon: "fas fa-fw fa-envelope-square"
+    - label: "danbi [at] kaist.ac.kr"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "danbi@kaist.ac.kr"
+    - label: "danbi.kim.0624 [at] gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
       # url: "danbi@kaist.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
