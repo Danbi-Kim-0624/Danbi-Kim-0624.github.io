@@ -7,8 +7,8 @@ show_author_profile: false
 ---
 
 <div style="text-align: center; margin-top: 120px; margin-bottom: 120px;">
-  <h1 style="font-size: 3rem; font-weight: 700; font-family: 'Bitter', serif; color: #000;">
-    Danbi Kim <span style="font-weight: 400;">/ˈdaːn.bi kim/</span>
+  <h1 style="font-size: 4rem; font-weight: 700; font-family: 'Bitter', serif; color: #000;">
+    Danbi Kim <span style="font-weight: 400;">/ˈdɑn.bi kɪm/</span>
   </h1>
 </div>
 
