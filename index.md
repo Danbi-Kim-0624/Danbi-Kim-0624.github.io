@@ -1,8 +1,6 @@
 ---
 layout: single
-sidebar:
-  nav: false
-  disable: true
+sidebar: false
 title: 
 permalink: /
 show_author_profile: false
