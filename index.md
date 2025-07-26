@@ -8,18 +8,47 @@ show_author_profile: false
 
 <div style="text-align: center; margin-top: 120px; margin-bottom: 120px;">
   <h1 style="font-size: 4rem; font-weight: 700; font-family: 'Bitter', serif; color: #000;">
-    Danbi Kim <span style="font-weight: 400;">/ˈdɑn.bi kɪm/</span>
+    Danbi Kim <span style="font-weight: 400;">/ˈdɑn.bi kim/</span>
   </h1>
 </div>
 
-<div style="display: flex; gap: 30px; align-items: center; margin-top: 30px;">
-  <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" style="width: 35%; border-radius: 8px;" />
+<style>
+  .intro-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro-wrapper {
+      flex-direction: column;
+    }
+  }
+
+  .intro-img {
+    width: 35%;
+    border-radius: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro-img {
+      width: 100%; /* 모바일에서는 꽉 차게 */
+    }
+  }
+</style>
+
+<div class="intro-wrapper">
+  <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" class="intro-img" />
   <div>
     <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
     <p>
-      I am currently pursuing a master's degree in Mechanical Engineering at <a href = "https://continuum.kaist.ac.kr/">the Laboratory for Solid Mechanics & Materials in Extreme</a> Environments at <a href = "https://www.kaist.ac.kr/en/">KAIST</a> (Korea Advanced Institute of Science and Technology). With a strong foundation in mathematics—thanks to a double major in Mathematics and Aerospace Engineering—I enjoy tackling complex problems across disciplines. I am eager to contribute to multidisciplinary environments, where I can bridge diverse fields to develop creative and robust solutions.
-      I work in the <a href="#">Laboratory for Solid Mechanics & Materials in Extreme</a>  
-      at KAIST (Korea Advanced Institute of Science and Technology).
+      I am currently pursuing a master's degree in Mechanical Engineering at
+      <a href="https://continuum.kaist.ac.kr/">the Laboratory for Solid Mechanics & Materials in Extreme</a>
+      Environments at <a href="https://www.kaist.ac.kr/en/">KAIST</a> (Korea Advanced Institute of Science and Technology). 
+      With a strong foundation in mathematics—thanks to a double major in Mathematics and Aerospace Engineering—I enjoy tackling complex problems across disciplines. 
+      I am eager to contribute to multidisciplinary environments, where I can bridge diverse fields to develop creative and robust solutions.
     </p>
   </div>
 </div>
@@ -59,4 +88,4 @@ show_author_profile: false
 
 ---
 You can reach me anytime via email:
-danbi@kaist.ac.kr / danbi.kim.0624@gmail.com
+[danbi@kaist.ac.kr](mailto:danbi@kaist.ac.kr) / [danbi.kim.0624@gmail.com](mailto:danbi.kim.0624@gmail.com)
