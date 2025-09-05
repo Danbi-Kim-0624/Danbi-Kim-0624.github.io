@@ -87,8 +87,6 @@ show_author_profile: false
   - Operations Coordinator (2021)
   - Education Mentor(2022 Spring)
   - Content Development Team member (2022-present)
-  - Q-KSOP  수상 with 정예나, 김현진
-
 
 ---
 You can reach me anytime via email:
