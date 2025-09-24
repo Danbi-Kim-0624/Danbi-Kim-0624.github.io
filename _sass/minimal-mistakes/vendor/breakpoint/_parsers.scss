@@ -85,9 +85,9 @@ $Memo-Exists: meta.function-exists(memo-get) and meta.function-exists(memo-set);
       }
       $context-map: ();
       @each $context in $contexts {
-        $context-map: map-merge($context-map, ($context: breakpoint-get-context($context)));
+        $context-map: map.merge($context-map, ($context: breakpoint-get-context($context)));
       }
-      $return: map-merge($return, (context: $context-map));
+      $return: map.merge($return, (context: $context-map));
     }
 
     // Reset Global Private Breakpoint Context
@@ -197,8 +197,8 @@ $Memo-Exists: meta.function-exists(memo-get) and meta.function-exists(memo-set);
   // Loop through each feature that's been detected so far and append 'false' to the the value list to increment their counters
   @each $f, $v in $private-breakpoint-context-holder {
     $v-holder: $v;
-    $length: length($v-holder);
-    @if length($v-holder) < $private-breakpoint-query-count {
+    $length: list.length($v-holder);
+    @if list.length($v-holder) < $private-breakpoint-query-count {
       @for $i from $length to $private-breakpoint-query-count {
         @if $f == 'media' {
           $v-holder: append($v-holder, breakpoint-get('default media'));
@@ -208,7 +208,7 @@ $Memo-Exists: meta.function-exists(memo-get) and meta.function-exists(memo-set);
         }
       }
     }
-    $private-breakpoint-context-holder: map-merge($private-breakpoint-context-holder, ($f: $v-holder)) !global;
+    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($f: $v-holder)) !global;
   }
 
   @return $query-print;
