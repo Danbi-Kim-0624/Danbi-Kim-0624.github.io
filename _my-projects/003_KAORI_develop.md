@@ -10,8 +10,7 @@ header:
 
 <style>
   .page__content {
-    margin-left: 50%;
-    margin-right: 10%;
+    max-width : 1000px;
   }
   .github-bookmark {
     display: flex;

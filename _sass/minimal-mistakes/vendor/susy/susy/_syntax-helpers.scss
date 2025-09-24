@@ -110,14 +110,14 @@
   $normal-config: susy-normalize($config);
 
   // Parse and normalize shorthand
-  @if (meta.type-of($short) != 'map') and (list.length($short) > 0) {
+  @if (type-of($short) != 'map') and (length($short) > 0) {
     $short: susy-parse($short, $context-only);
   }
 
   $normal-short: susy-normalize($short, $normal-config);
 
   // Merge and return
-  @return map.merge($normal-config, $normal-short);
+  @return map-merge($normal-config, $normal-short);
 }
 
 
@@ -183,8 +183,8 @@
   $output: ();
 
   @each $arg in $args {
-    $value: map.get($config, $arg);
-    $output: if($value, map.merge($output, ($arg: $value)), $output);
+    $value: map-get($config, $arg);
+    $output: if($value, map-merge($output, ($arg: $value)), $output);
   }
 
   @return call($call, $output...);
