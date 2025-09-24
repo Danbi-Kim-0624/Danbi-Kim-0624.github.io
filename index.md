@@ -79,7 +79,7 @@ show_author_profile: false
 
 ## EDUCATION
 
-- B.S., [Aerospace Engineering](https://ae.kaist.ac.kr/) and [Mathematics](https://mathsci.kaist.ac.kr/home/en/), KAIST, South Korea, 2020–2025
+- B.S., [Mathematics](https://mathsci.kaist.ac.kr/home/en/) and [Aerospace Engineering](https://ae.kaist.ac.kr/), KAIST, South Korea, 2020–2024
 
 ## HONORS AND ACHIEVEMENTS
  
