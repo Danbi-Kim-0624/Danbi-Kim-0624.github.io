@@ -23,7 +23,7 @@ $private-breakpoint-query-count: 0 !default;
 //////////////////////////////
 @function breakpoint-get-context($feature) {
   @if map-has-key($private-breakpoint-context-holder, $feature) {
-    $get: map-get($private-breakpoint-context-holder, $feature);
+    $get: map.get($private-breakpoint-context-holder, $feature);
     // Special handling of no-query from get side so /false/ prepends aren't returned
     @if $feature == 'no-query' {
       @if type-of($get) == 'list' and length($get) > 1 and nth($get, 1) == false {
@@ -50,7 +50,7 @@ $private-breakpoint-query-count: 0 !default;
     $feature: 'monochrome';
   }
 
-  $current: map-get($private-breakpoint-context-holder, $feature);
+  $current: map.get($private-breakpoint-context-holder, $feature);
   @if $current and length($current) == $private-breakpoint-query-count {
     @warn "You have already queried against `#{$feature}`. Unexpected things may happen if you query against the same feature more than once in the same `and` query. Breakpoint is overwriting the current context with `#{$value}`";
   }
