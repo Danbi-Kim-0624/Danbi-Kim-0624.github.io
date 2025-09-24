@@ -61,6 +61,22 @@ header:
   <img src="{{ page.header.teaser }}" alt="Teaser Image" style="width:100%; max-width:600px;">
 </p>
 
+I was thinking about what topic to choose for the final project of the AE280 course. While browsing 3Blue1Brown, a math channel I usually watch with interest on YouTube, I came across a video about the Fourier Transform Drawing Machine. It explains how to approximate any given arbitrary path using the Fourier Transform on the complex plane.
+
+The ultimate goal of my project was to reproduce the content presented in this video.
+
+<div class="github-bookmark">
+  <div class="bookmark-icon">
+    <i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i>
+  </div>
+  <div class="bookmark-content">
+    <h4>But what is a Fourier series? From heat flow to drawing with circles | DE4</h4>
+    <p>Check out the full video in YouTube.</p>
+    <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k">
+      Drawing Machnie using Fourier transform in complex plane
+    </a>
+  </div>
+</div>
 
 ### GitHub Page
 
@@ -69,10 +85,10 @@ header:
     <i class="fab fa-github fa-2x"></i>
   </div>
   <div class="bookmark-content">
-    <h4>KAORI_Booklet_LaTeX</h4>
+    <h4>2D Fourier Transform Drawing Machine</h4>
     <p>Check out the full code and documentation for this project on GitHub.</p>
-    <a href="https://github.com/Danbi-Kim-0624/Mini_Pygame_Project/" target="_blank">
-      github.com/Danbi-Kim-0624/Mini_Pygame_Project
+    <a href="https://github.com/Danbi-Kim-0624/2D-Fourier-Transform-Drawing-Machine" target="_blank">
+      github.com/Danbi-Kim-0624/2D-Fourier-Transform-Drawing-Machine
     </a>
   </div>
 </div>
