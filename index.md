@@ -53,7 +53,7 @@ show_author_profile: false
 </style>
 
 <div class="intro-wrapper">
-  <img src="/assets/images/taewool_music-festival-photo.jpg" alt="Danbi Kim" class="intro-img" />
+  <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" class="intro-img" />
   <div>
     <p>Hello, I am <em>Danbi Kim</em>.</p>
     <p>
