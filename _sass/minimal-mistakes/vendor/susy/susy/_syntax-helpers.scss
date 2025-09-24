@@ -110,7 +110,7 @@
   $normal-config: susy-normalize($config);
 
   // Parse and normalize shorthand
-  @if (meta.type-of($short) != 'map') and (length($short) > 0) {
+  @if (meta.type-of($short) != 'map') and (list.length($short) > 0) {
     $short: susy-parse($short, $context-only);
   }
 

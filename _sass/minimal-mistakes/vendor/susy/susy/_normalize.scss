@@ -73,7 +73,7 @@
   }
 
   @if not $columns {
-    $map: type-of($context) == 'map';
+    $map: meta.type-of($context) == 'map';
     $columns: if($map, map.get($context, 'columns'), null);
     $columns: $columns or susy-get('columns');
   }

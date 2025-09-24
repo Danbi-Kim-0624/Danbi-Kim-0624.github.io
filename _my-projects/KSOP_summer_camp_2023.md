@@ -1,9 +1,8 @@
 ---
-title: "Mini Pygame Project with KSOP"
-order: 1
+title: "Operation Mentor for 2023 KSOP Summer Camp"
 layout: posts
-permalink: /my-projects/test_project1/
-date: 2022-07-01
+permalink: /my-projects/2023ksopsummercamp/
+date: 2023-08-31
 header:
   teaser: "/assets/images/my-projects-images/start_screen_capture.png"
   description: "Develop a mini Pygame project as part of the KSOP CS curriculum for middle and high school students"
@@ -49,6 +48,21 @@ header:
     font-size: 14px;
     color: #0366d6;
   }
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 화면 비율 (height / width = 9/16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem; /* 영상 아래 여백 추가 */
+    max-width: 100%; /* 부모 컨테이너 너비에 맞춤 */
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
 
 <p style="text-align:left; color:#888; font-size:0.8em; margin-bottom:20px;">
@@ -86,3 +100,16 @@ The students had learned the basic game alogithm step by step.
   </div>
 </div>
 
+### YouTube Demo Video
+
+<div class="video-wrapper">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/aqaAdZVTrz0" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
