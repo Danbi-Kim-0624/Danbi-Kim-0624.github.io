@@ -158,7 +158,7 @@ $_susy-error-output-override: false !default;
       $item: _susy-flatten($item);
       $flat: join($flat, $item);
     } @else {
-      $flat: append($flat, $item);
+      $flat: list.append($flat, $item);
     }
   }
 

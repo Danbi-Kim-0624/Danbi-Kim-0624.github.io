@@ -30,16 +30,16 @@ classes: wide
 
     /* 개별 카드 스타일 */
     .project-card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--card-bg-color, #fff); /* CSS 변수 사용 */
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid var(--border-color, #ddd);
+      display: flex;
+      flex-direction: column;
+      background-color: var(--card-bg-color, #fff); /* CSS 변수 사용 */
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid var(--border-color, #ddd);
     }
 
     .project-card:hover {
@@ -89,7 +89,8 @@ classes: wide
 <p style="text-align: center;"> This is a list of projects I have participated in or designed myself. In each section, you can learn about my contributions. </p>
 ---
 <div class="project-grid">
-   {% for project in site.my-projects | sort: 'date' %}
+{% assign my-projects = site.my-projects | sort:"date" | reverse %}
+   {% for project in my-projects %}
     <a href="{{ project.url }}" class="project-card">
       <div class="project-image-container">
         {% if project.header.teaser %}

@@ -1,5 +1,6 @@
 ---
 title: "KAORI Booklet by LaTeX"
+order : 2
 layout: posts
 permalink: /my-projects/KAORI-booklet-LaTeX/
 date: 2025-09-01
