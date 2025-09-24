@@ -56,42 +56,42 @@
 ) {
   // Spread
   @each $setting in ('spread', 'container-spread') {
-    $value: map-get($config, $setting);
+    $value: map.get($config, $setting);
 
     @if $value {
       $value: susy-normalize-spread($value);
-      $config: map-merge($config, ($setting: $value));
+      $config: map.merge($config, ($setting: $value));
     }
   }
 
   // Columns
-  $columns: map-get($config, 'columns');
+  $columns: map.get($config, 'columns');
 
   @if $columns {
     $columns: susy-normalize-columns($columns, $context);
-    $config: map-merge($config, ('columns': $columns));
+    $config: map.merge($config, ('columns': $columns));
   }
 
   @if not $columns {
     $map: type-of($context) == 'map';
-    $columns: if($map, map-get($context, 'columns'), null);
+    $columns: if($map, map.get($context, 'columns'), null);
     $columns: $columns or susy-get('columns');
   }
 
   // Span
-  $span: map-get($config, 'span');
+  $span: map.get($config, 'span');
 
   @if $span {
     $span: susy-normalize-span($span, $columns);
-    $config: map-merge($config, ('span': $span));
+    $config: map.merge($config, ('span': $span));
   }
 
   // Location
-  $location: map-get($config, 'location');
+  $location: map.get($config, 'location');
 
   @if $location {
     $location: susy-normalize-location($span, $location, $columns);
-    $config: map-merge($config, ('location': $location));
+    $config: map.merge($config, ('location': $location));
   }
 
   @return $config;
@@ -168,7 +168,7 @@
 
   @if (type-of($columns) == 'number') and (unitless($columns)) {
     $span: $columns;
-    $context: map-get($context, 'columns');
+    $context: map.get($context, 'columns');
     $symmetrical: susy-repeat(length($context), nth($context, 1));
 
     @if ($context == $symmetrical) {
@@ -216,7 +216,7 @@
     'wider': 1,
   );
 
-  @return map-get($normal-spread, $spread) or $spread;
+  @return map.get($normal-spread, $spread) or $spread;
 }
 
 
@@ -257,5 +257,5 @@
     'omega': $count - $span + 1,
   );
 
-  @return map-get($normal-locations, $location) or $location;
+  @return map.get($normal-locations, $location) or $location;
 }
