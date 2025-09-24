@@ -101,7 +101,7 @@ $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: #000 !default;
-$muted-text-color: color.mix(#fff, $text-color, 20%) !default;
+$muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
@@ -112,7 +112,7 @@ $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
 $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
-$active-color: color.mix(#fff, $primary-color, 80%) !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
@@ -153,8 +153,8 @@ $link-color: #00009d !default;
 $link-color-hover: #1400f1 !default;
 $link-color-visited: #00009d !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: color.mix(#000, $primary-color, 25%) !default;
-$navicon-link-color-hover:  color.mix(#fff, $primary-color, 75%) !default;
+$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$navicon-link-color-hover:  mix(#fff, $primary-color, 75%) !default;
 
 /* notices */
 $notice-background-mix: 80% !default;
