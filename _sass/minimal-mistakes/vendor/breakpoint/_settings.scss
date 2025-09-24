@@ -15,10 +15,10 @@
 //////////////////////////////
 @function breakpoint-get($setting) {
   @if breakpoint-has($setting) {
-    @return map.get($breakpoint, $setting);
+    @return map-get($breakpoint, $setting);
   }
   @else {
-    @return map.get($Breakpoint-Settings, $setting);
+    @return map-get($Breakpoint-Settings, $setting);
   }
 }
 

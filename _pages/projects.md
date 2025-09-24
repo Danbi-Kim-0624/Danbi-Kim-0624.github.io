@@ -19,13 +19,13 @@ classes: wide
     }
     /* 전체 그리드 컨테이너 */
     .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 2rem;
-      padding: 2rem;
-      max-width: 1200px; /* Optional, but good for large screens */
-      margin-left: auto;
-      margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px; /* Optional, but good for large screens */
+    margin-left: auto;
+    margin-right: auto;
     }
 
     /* 개별 카드 스타일 */

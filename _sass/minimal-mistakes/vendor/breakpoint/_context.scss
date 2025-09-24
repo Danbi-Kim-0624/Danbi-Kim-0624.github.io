@@ -55,7 +55,7 @@ $private-breakpoint-query-count: 0 !default;
     @warn "You have already queried against `#{$feature}`. Unexpected things may happen if you query against the same feature more than once in the same `and` query. Breakpoint is overwriting the current context with `#{$value}`";
   }
 
-  @if not map.has-key($private-breakpoint-context-holder, $feature) {
+  @if not map-has-key($private-breakpoint-context-holder, $feature) {
     $v-holder: ();
     @for $i from 1 to $private-breakpoint-query-count {
       @if $feature == 'media' {
@@ -65,11 +65,11 @@ $private-breakpoint-query-count: 0 !default;
         $v-holder: append($v-holder, false);
       }
     }
-    $v-holder: list.append($v-holder, $value);
-    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
+    $v-holder: append($v-holder, $value);
+    $private-breakpoint-context-holder: map-merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
   }
   @else {
-    $v-holder: map.get($private-breakpoint-context-holder, $feature);
+    $v-holder: map-get($private-breakpoint-context-holder, $feature);
     $length: length($v-holder);
     @for $i from $length to $private-breakpoint-query-count - 1 {
       @if $feature == 'media' {
@@ -80,7 +80,7 @@ $private-breakpoint-query-count: 0 !default;
       }
     }
     $v-holder: append($v-holder, $value);
-    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
+    $private-breakpoint-context-holder: map-merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
   }
 
   @return true;

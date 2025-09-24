@@ -1,10 +1,11 @@
 ---
-title: "2D Fourier Transform Drawing Machine"
+title: "KSOP YouTube"
 layout: posts
-permalink: /my-projects/FourierTransformDrawingMachine/
-date: 2022-06-30
+permalink: /my-projects/test_project2/
+order: 2
+date: 2025-09-02
 header:
-  teaser: "/assets/images/my-projects-images/AE280-sample-butterfly.png"
+  teaser:
   description: "Granular material simulation using Python & FEniCSx"
 ---
 

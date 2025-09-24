@@ -14,24 +14,11 @@ show_author_profile: false
 
 <style>
   .intro-wrapper {
-  /* Existing styles */
     display: flex;
     gap: 30px;
     align-items: center;
     margin-top: 30px;
     flex-direction: row;
-
-    /* New centering and margin styles */
-    max-width: 1200px; /* Adjust as needed for your preferred width */
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .content-wrapper {
-    max-width: 1200px; /* 원하는 너비로 조절하세요 */
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   @media screen and (max-width: 768px) {
@@ -75,7 +62,6 @@ show_author_profile: false
     </a>
   </div>
 </div>
-
 
 ## EDUCATION
 

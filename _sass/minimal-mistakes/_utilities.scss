@@ -321,7 +321,7 @@ $text-alignments: left, right, start, end, center, justify;
   .navicon,
   .navicon:before,
   .navicon:after {
-    background: color.mix(#000, $primary-color, 25%);
+    background: mix(#000, $primary-color, 25%);
   }
 
   &.close {
@@ -421,12 +421,12 @@ $text-alignments: left, right, start, end, center, justify;
    ========================================================================== */
 
 .footnote {
-  color: color.mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
   text-decoration: none;
 }
 
 .footnotes {
-  color: color.mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
 
   ol,
   li,
