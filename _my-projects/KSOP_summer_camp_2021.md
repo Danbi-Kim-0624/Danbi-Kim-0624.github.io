@@ -4,7 +4,7 @@ layout: posts
 permalink: /my-projects/2021ksopsummercamp/
 date: 2021-09-11
 header:
-  teaser: "/assets/images/my-projects-images/start_screen_capture.png"
+  teaser: "/assets/images/my-projects-images/2021 KSOP camp - changbyeongu chairman interview.png"
   description: "Develop a mini Pygame project as part of the KSOP CS curriculum for middle and high school students"
 ---
 
@@ -78,38 +78,17 @@ header:
 This is the project to make educational content for KSOP students.
 The students had learned the basic game alogithm step by step.
 
-**Features**:
-- Control a character that moves left and right with arrow keys
-- Dodge falling stones and collect jewels
-- Score tracking with clear UI
-- Start, How-to, and Game Over screens with engaging graphics
-
-
-### GitHub Page
+### YouTube Archieve
 
 <div class="github-bookmark">
   <div class="bookmark-icon">
-    <i class="fab fa-github fa-2x"></i>
+    <i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i>
   </div>
   <div class="bookmark-content">
-    <h4>KAORI_Booklet_LaTeX</h4>
-    <p>Check out the full code and documentation for this project on GitHub.</p>
-    <a href="https://github.com/Danbi-Kim-0624/Mini_Pygame_Project/" target="_blank">
-      github.com/Danbi-Kim-0624/Mini_Pygame_Project
+    <h4>KSOP 여름캠프 2차 (고등) 폐회식 영상</h4>
+    <p>Check out the full video in YouTube.</p>
+    <a href="https://www.youtube.com/watch?v=dkUF4i76SFA&t=22s">
+      KSOP 여름캠프 2차 (고등) 폐회식 영상
     </a>
   </div>
-</div>
-
-### YouTube Demo Video
-
-<div class="video-wrapper">
-  <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/aqaAdZVTrz0" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
 </div>
