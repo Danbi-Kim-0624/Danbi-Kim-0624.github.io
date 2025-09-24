@@ -42,7 +42,7 @@ show_author_profile: false
 <div class="intro-wrapper">
   <img src="/assets/images/IMG_3196.jpg" alt="Danbi Kim" class="intro-img" />
   <div>
-    <p>Hello, everyone! I am <em>Danbi Kim</em>.</p>
+    <p>Hello, I am <em>Danbi Kim</em>.</p>
     <p>
       I am passionate about solving complex problems using mathematical techniques. I hold a dual bachelor's degree in Mathematics and Aerospace Engineering from <a href="https://www.kaist.ac.kr/en/">KAIST</a> (Korea Advanced Institute of Science and Technology). 
     </p>
@@ -50,8 +50,16 @@ show_author_profile: false
       With a solid foundation in mathematics, I enjoy tackling intricate challenges across various disciplines. I am eager to contribute to multidisciplinary teams where I can bridge diverse fields to develop creative and robust solutions.
       You can explore my projects in detail by visiting my <em>Projects</em> section.
     </p>
-
-    <a href="/assets/Danbi_Kim_CV.pdf" download>Danbi_Kim_CV.pdf</a>
+    <a href="https://github.com/danbiland" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>Danbi Kim's GitHub
+    </a><br>
+    <a href="/assets/Danbi_Kim_CV.pdf" target="_blank" rel="noopener noreferrer">
+    <i class="far fa-file-pdf"></i> Danbi_Kim_CV.pdf
+    </a>
+    <br>
+    <a href="mailto:danbi.kim.0624@gmail.com">
+    <i class="far fa-envelope"></i> danbi.kim.0624@gmail.com
+    </a>
   </div>
 </div>
 
@@ -61,7 +69,7 @@ show_author_profile: false
 
 ## HONORS AND ACHIEVEMENTS
  
-- The 4th KAIST Reading King: Individual Category Champion Award (2024)  
+- The 4th KAIST Reading King: Individual Category Champion Award (2025)  
   제 4회 카이스트 독서왕 대상
 - KAIST Q-Day Student Special Awards Winners (T) for Q-KSOP Project with 정예나, 김현진 (2024)
   - Awarded in the "Trust and Communication" category for contributing to the development of humanities and arts programs as the KSOP Media Team.
@@ -85,7 +93,7 @@ show_author_profile: false
 
 - KAIST Science Outreach Program ([KSOP](https://outreach.kaist.ac.kr/))
   - Operations Coordinator (2021)
-  - Education Mentor(2022 Spring)
+  - Education Mentor (2022 Spring)
   - Content Development Team member (2022-present)
 
 ---

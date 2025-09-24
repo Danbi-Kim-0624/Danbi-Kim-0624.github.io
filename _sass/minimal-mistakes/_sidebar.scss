@@ -8,13 +8,344 @@
 
 .sidebar {
   @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
-  //   position: relative;
-  //   z-index: 10;
-  //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
-  // }
+  @include breakpoint($large) {
+    float: initial;
+    width: 0;
+    opacity: 0;
+    -webkit-transition: none;
+    transition: none;
+
+    &:hover {
+      opacity: 0;
+    }
+
+    &.sticky {
+      overflow-y: initial;
+      max-height: 0;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: 0;
+  }
+
+  > * {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: none; /* Hide all content inside the sidebar */
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0;
+    font-family: inherit;
+  }
+
+  p,
+  li {
+    font-family: inherit;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  img {
+    width: 0;
+    
+    &.emoji {
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+.sidebar__right {
+  margin-bottom: 0;
+
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    inset-inline-end: initial;
+    width: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    z-index: 0;
+
+    &.sticky {
+      position: initial;
+      top: initial;
+      float: none;
+
+      .toc {
+        .toc__menu {
+          overflow-y: initial;
+          max-height: 0;
+        }
+      }
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: 0;
+    margin-inline-end: 0;
+  }
+}
+
+.splash .sidebar__right {
+  @include breakpoint($large) {
+    position: initial;
+    float: none;
+    margin-inline-end: 0;
+  }
+
+  @include breakpoint($x-large) {
+    margin-inline-end: 0;
+  }
+}
+
+/*
+   Author profile and links
+   ========================================================================== */
+
+.author__avatar {
+  display: none;
+  width: 0;
+  height: 0;
+
+  @include breakpoint($large) {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  img {
+    max-width: 0;
+    border-radius: 0%;
+
+    @include breakpoint($large) {
+      padding: 0;
+      border: none;
+    }
+  }
+}
+
+.author__content {
+  display: none;
+  padding-inline: 0;
+  line-height: 0;
+
+  @include breakpoint($large) {
+    display: none;
+    width: 0;
+    padding-inline: 0;
+  }
+
+  a {
+    color: initial;
+    text-decoration: none;
+  }
+}
+
+.author__name {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+.sidebar .author__name {
+  font-family: inherit;
+  font-size: 0;
+}
+
+.author__bio {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.author__urls-wrapper {
+  position: initial;
+  display: none;
+  font-family: inherit;
+  z-index: 0;
+  cursor: default;
+
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
+  }
+
+  .author__urls {
+    span.label {
+      padding-inline-start: 0;
+    }
+  }
+
+  @include breakpoint($large) {
+    display: none;
+  }
+
+  button {
+    position: initial;
+    margin-bottom: 0;
+
+    &:before {
+      @supports (pointer-events: none) {
+        content: '';
+        position: initial;
+        top: initial;
+        inset-inline-start: initial;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+      }
+    }
+
+    &.open {
+      &:before {
+        pointer-events: none;
+      }
+    }
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+}
+
+.author__urls {
+  display: none;
+  position: initial;
+  inset-inline-end: 0;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: default;
+
+  &.is--visible {
+    display: none;
+  }
+
+  @include breakpoint($large) {
+    display: none;
+    position: initial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  &::before {
+    display: none;
+    content: "";
+    position: initial;
+    top: initial;
+    inset-inline-start: initial;
+    width: 0;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+    z-index: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  &:after {
+    display: none;
+    content: "";
+    position: initial;
+    top: initial;
+    inset-inline-start: initial;
+    width: 0;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+    z-index: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    white-space: normal;
+  }
+
+  a {
+    display: none;
+    margin-bottom: 0;
+    padding-block: 0;
+    padding-inline-end: 0;
+    color: inherit;
+    font-size: 0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+/*
+   Wide Pages
+   ========================================================================== */
+
+.wide .sidebar__right {
+  margin-bottom: 0;
+
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    inset-inline-end: initial;
+    width: initial;
+    margin-inline-end: initial;
+    padding-inline-start: initial;
+    z-index: initial;
+
+    &.sticky {
+      float: none;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: initial;
+    margin-inline-end: initial;
+  }
+}
+
+/* ==========================================================================
+   Original Code (Commented Out)
+   ========================================================================== */
+
+/*
+.sidebar {
+  @include clearfix();
+  @include breakpoint(max-width $large) {
+    position: relative;
+    z-index: 10;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 
   @include breakpoint($large) {
     float: inline-start;
@@ -29,9 +360,6 @@
 
     &.sticky {
       overflow-y: auto;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
@@ -117,9 +445,6 @@
   }
 }
 
-/*
-   Author profile and links
-   ========================================================================== */
 
 .author__avatar {
   display: table-cell;
@@ -321,10 +646,6 @@
   }
 }
 
-/*
-   Wide Pages
-   ========================================================================== */
-
 .wide .sidebar__right {
   margin-bottom: 1em;
 
@@ -347,3 +668,4 @@
     margin-inline-end: initial;
   }
 }
+*/
