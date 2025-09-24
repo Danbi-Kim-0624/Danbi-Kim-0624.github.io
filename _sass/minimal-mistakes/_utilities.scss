@@ -29,13 +29,18 @@
 .visually-hidden,
 .screen-reader-text,
 .screen-reader-text span,
-.screen-reader-shortcut {
+.screen-reader-shortcut,
+.sr-only,
+.sr-only-focusable:not(:focus) {
   position: absolute !important;
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(0, 0, 0, 0);
   height: 1px !important;
   width: 1px !important;
+  padding: 0 !important;
   border: 0 !important;
+  margin: -1px;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 body:hover .visually-hidden a,
@@ -321,7 +326,7 @@ $text-alignments: left, right, start, end, center, justify;
   .navicon,
   .navicon:before,
   .navicon:after {
-    background: color.mix(#000, $primary-color, 25%);
+    background: mix(#000, $primary-color, 25%);
   }
 
   &.close {
@@ -421,12 +426,12 @@ $text-alignments: left, right, start, end, center, justify;
    ========================================================================== */
 
 .footnote {
-  color: color.mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
   text-decoration: none;
 }
 
 .footnotes {
-  color: color.mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
 
   ol,
   li,

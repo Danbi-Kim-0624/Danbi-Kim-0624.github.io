@@ -148,17 +148,17 @@ $_susy-error-output-override: false !default;
   $flat: ();
 
   // Don't iterate over maps
-  @if (meta.type-of($list) == 'map') {
+  @if (type-of($list) == 'map') {
     @return $list;
   }
 
   // Iterate over lists (or single items)
   @each $item in $list {
-    @if (meta.type-of($item) == 'list') {
+    @if (type-of($item) == 'list') {
       $item: _susy-flatten($item);
       $flat: join($flat, $item);
     } @else {
-      $flat: list.append($flat, $item);
+      $flat: append($flat, $item);
     }
   }
 

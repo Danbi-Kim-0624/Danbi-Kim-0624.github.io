@@ -2,7 +2,7 @@
 title: "Mini Pygame Project with KSOP"
 order: 1
 layout: posts
-permalink: /my-projects/test_project1/
+permalink: /my-projects/mini-pygame-proj/
 date: 2022-07-01
 header:
   teaser: "/assets/images/my-projects-images/start_screen_capture.png"

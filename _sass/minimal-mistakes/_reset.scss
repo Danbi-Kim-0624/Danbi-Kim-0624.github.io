@@ -22,12 +22,8 @@ html {
     font-size: $doc-font-size-x-large;
   }
 
-  & { 
-    -webkit-text-size-adjust: 100%;
-  }
-    & {
-    -ms-text-size-adjust: 100%;
-  }
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /* Remove margin */
