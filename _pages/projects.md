@@ -89,7 +89,7 @@ classes: wide
 <p style="text-align: center;"> This is a list of projects I have participated in or designed myself. In each section, you can learn about my contributions. </p>
 ---
 <div class="project-grid">
-   {% for project in site.my-projects | sort: 'date' %}
+   {% for project in site.my-projects}
     <a href="{{ project.url }}" class="project-card">
       <div class="project-image-container">
         {% if project.header.teaser %}

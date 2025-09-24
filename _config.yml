@@ -331,4 +331,5 @@ defaults:
 collections:
   my-projects:
     output: true
+    sort_by: date
     permalink: /my-projects/:path/
