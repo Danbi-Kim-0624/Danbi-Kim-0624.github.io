@@ -90,7 +90,7 @@ It allowed me to recognize the importance of facilitating smooth communication w
   <div class="bookmark-content">
     <h4>KSOP 여름캠프 2차 (고등) 폐회식 영상</h4>
     <p>Check out the full video in YouTube.</p>
-    <a href="https://www.youtube.com/watch?v=dkUF4i76SFA&t=22s">
+    <a href="https://www.youtube.com/watch?v=ZVNymb3dW1o">
       KSOP 여름캠프 2차 (고등) 폐회식 영상
     </a>
   </div>

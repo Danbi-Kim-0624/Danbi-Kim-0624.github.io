@@ -86,10 +86,10 @@ I participated as an Operations Mentor for the 2021 KSOP Summer Camp, where I wa
     <i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i>
   </div>
   <div class="bookmark-content">
-    <h4>KSOP 여름캠프 2차 (고등) 폐회식 영상</h4>
+    <h4>KSOP 2023 1차 여름캠프</h4>
     <p>Check out the full video in YouTube.</p>
-    <a href="https://www.youtube.com/watch?v=dkUF4i76SFA&t=22s">
-      KSOP 여름캠프 2차 (고등) 폐회식 영상
+    <a href="https://www.youtube.com/watch?v=dkUF4i76SFA">
+      KSOP 2023 1차 여름캠프
     </a>
   </div>
 </div>
