@@ -4,8 +4,8 @@ layout: posts
 permalink: /my-projects/2021ksopsummercamp/
 date: 2021-09-11
 header:
-  teaser: "/assets/images/my-projects-images/2021 KSOP camp - changbyeongu chairman interview.png"
-  description: "Develop a mini Pygame project as part of the KSOP CS curriculum for middle and high school students"
+  teaser: "/assets/images/my-projects-images/202ksopsummer-camp.png"
+  description: "Summer Camp Operations Lead"
 ---
 
 <style>
@@ -75,8 +75,9 @@ header:
   <img src="{{ page.header.teaser }}" alt="Teaser Image" style="width:100%; max-width:600px;">
 </p>
 
-This is the project to make educational content for KSOP students.
-The students had learned the basic game alogithm step by step.
+I participated as an Operations Mentor for the 2021 KSOP Summer Camp, where I was responsible for coordinating the overall program schedule and managing participants. This year, I had the honor of serving as the host for a special lecture by Chairman Chang Byung-gyu of Krafton. I was particularly impressed by how actively he encouraged interactive engagement with the participants. Taking on the role of “operations,” which I had not experienced before, gave me a valuable insight into the behind-the-scenes efforts required to ensure a successful event.
+
+2021년 KSOP 여름 캠프의 운영 멘토로 참여해 프로그램 전체 스케줄 조정 및 참여자 관리 역할을 맡았습니다. 이번 해에는 특히 크래프톤의 장병규 의장님께서 특강에 와주셨는데, 사회자로 참여할 수 있어 영광이었습니다. 실제 참여자들과 적극적으로 양방향 상호작용을 장려하시는 모습이 인상깊었습니다. 모쪼록 전에는 해보지 못한 '운영'이라는 역할을 맡아, 한 행사가 잘 끝나기 위해서는 다방면에서 보이지 않는 노력들이 필요하다는 것을 깨닫는 시간이었습니다.
 
 ### YouTube Archieve
 
