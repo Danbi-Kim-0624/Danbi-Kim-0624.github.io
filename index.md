@@ -63,7 +63,7 @@ show_author_profile: false
       With a solid foundation in mathematics, I enjoy tackling intricate challenges across various disciplines. I am eager to contribute to multidisciplinary teams where I can bridge diverse fields to develop creative and robust solutions.
       You can explore my projects in detail by visiting my <a href="https://danbi-kim-0624.github.io/projects/" rel="noopener noreferrer"><em>Projects</em></a> section.
     </p>
-    <a href="https://github.com/danbiland" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/Danbi-Kim-0624" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-github"></i>Danbi Kim's GitHub
     </a><br>
     <a href="/assets/PDF/Danbi_Kim_Resume.pdf" target="_blank" rel="noopener noreferrer">
