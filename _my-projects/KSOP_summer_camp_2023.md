@@ -1,5 +1,5 @@
 ---
-title: "Operation Mentor for 2023 KSOP Summer Camp"
+title: "Assistant & Host for 2023 KSOP Summer Camp"
 layout: posts
 permalink: /my-projects/2023ksopsummercamp/
 date: 2023-08-31

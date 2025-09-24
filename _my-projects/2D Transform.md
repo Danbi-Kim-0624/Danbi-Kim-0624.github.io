@@ -6,7 +6,7 @@ permalink: /my-projects/FourierTransformDrawingMachine/
 date: 2022-06-30
 header:
   teaser: "/assets/images/my-projects-images/AE280-sample-butterfly.png"
-  description: " approximate any given arbitrary path by Fourier Transform on the complex plane"
+  description: "Approximate any given arbitrary path by Fourier Transform on the complex plane"
 ---
 
 <style>
