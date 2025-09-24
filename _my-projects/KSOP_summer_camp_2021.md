@@ -4,7 +4,7 @@ layout: posts
 permalink: /my-projects/2021ksopsummercamp/
 date: 2021-09-11
 header:
-  teaser: "/assets/images/my-projects-images/202ksopsummer-camp.png"
+  teaser: "/assets/images/my-projects-images/2021ksopsummer-camp.png"
   description: "Summer Camp Operations Lead"
 ---
 
